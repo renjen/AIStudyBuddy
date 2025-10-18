@@ -1,4 +1,4 @@
-#AI Study Buddy — Chat with your notes (RAG)
+# AI Study Buddy — Chat with your notes (RAG)
 
 Upload PDFs or notes and ask questions. Uses LangChain + Chroma + OpenAI. Shows sources with page numbers. Works locally or with Docker.
 
@@ -7,16 +7,21 @@ Upload PDFs or notes and ask questions. Uses LangChain + Chroma + OpenAI. Shows 
   <a href="https://github.com/<your-username>/<repo-name>/issues">Request a feature</a>
 </p>
 
-##Features
+## Features
 - Upload **PDF/TXT/MD** and index into Chroma (persisted to `.chroma/`)
 - Ask questions; answers include **citations** (file + page)
 - Adjustable **chunk size/overlap** and **top-k retrieval**
 - Runs with **Streamlit** (no backend setup)
 - Optional **Docker** for one-command start
 
-##Quickstart
-
-###Local
+## Quickstart
+- Download all the files
+- create a .env file with this template and insert your own openAI API key.
+  OPENAI_API_KEY= sk-your own key
+  CHROMA_DIR=.chroma
+- Then run the requirments.txt file..... pip install requirments.txt
+- Then just run streamlit run app.py
+### Local
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
