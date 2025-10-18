@@ -1,4 +1,4 @@
-# 📚 AI Study Buddy — Chat with your notes (RAG)
+#AI Study Buddy — Chat with your notes (RAG)
 
 Upload PDFs or notes and ask questions. Uses LangChain + Chroma + OpenAI. Shows sources with page numbers. Works locally or with Docker.
 
@@ -7,14 +7,14 @@ Upload PDFs or notes and ask questions. Uses LangChain + Chroma + OpenAI. Shows 
   <a href="https://github.com/<your-username>/<repo-name>/issues">Request a feature</a>
 </p>
 
-## ✨ Features
+##Features
 - Upload **PDF/TXT/MD** and index into Chroma (persisted to `.chroma/`)
 - Ask questions; answers include **citations** (file + page)
 - Adjustable **chunk size/overlap** and **top-k retrieval**
 - Runs with **Streamlit** (no backend setup)
 - Optional **Docker** for one-command start
 
-## 🚀 Quickstart
+##Quickstart
 
 ###Local
 ```bash
